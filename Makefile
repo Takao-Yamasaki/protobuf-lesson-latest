@@ -1,3 +1,6 @@
+.PHONY: go
+open:
+	@devcontainer open .
 up:
 	@docker-compose up -d
 down:
