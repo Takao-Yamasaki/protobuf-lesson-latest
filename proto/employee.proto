@@ -6,3 +6,10 @@ message Employee {
   string name = 2;
   string email = 3;
 }
+
+enum Occupation {
+  OCCUPATION_UNKOWN = 0;
+  ENGINEER = 1;
+  DESIGNER = 2;
+  MANAGER = 3;
+}
