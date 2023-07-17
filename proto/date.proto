@@ -2,6 +2,9 @@ syntax = "proto3";
 
 package date;
 
+// 変換後のGoファイルのパッケージを指定
+option go_package = "./pb";
+
 message Date {
   int32 year = 1;
   int32 month = 2;

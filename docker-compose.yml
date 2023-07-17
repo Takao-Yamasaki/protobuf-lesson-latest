@@ -8,3 +8,4 @@ services:
     volumes:
       - .:/go/src/workspace
     working_dir: /go/src/workspace
+    # TODO: volumeを準備すること
