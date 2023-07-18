@@ -62,6 +62,5 @@ func main() {
 	if err := jsonpb.UnmarshalString(out, readEmployee); err != nil {
 		log.Fatalln("Can't unmarshal from json", err)
 	}
-
 	fmt.Println(readEmployee)
 }
